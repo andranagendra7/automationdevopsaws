@@ -6,7 +6,7 @@ ADD        /var/lib/jenkins/workspace/webapp/target/*war  /root/.
 WORKDIR    /root
 #USER       root
 #EXPORT     8081:8080
-#CMD        "/bin/bash"
+CMD        "/bin/bash"
 #ENV
 #ENTRYPOINT
 #VOLUME
